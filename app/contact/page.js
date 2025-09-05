@@ -98,7 +98,7 @@ Message: ${formData.message}
             Contact Us
           </h1>
           <p className="text-xl text-green-700 max-w-3xl mx-auto leading-relaxed">
-            Get in touch with our team of spice experts. We're here to help with 
+            Get in touch with our team of spice experts. We are here to help with 
             your inquiries, orders, and custom requirements.
           </p>
         </div>

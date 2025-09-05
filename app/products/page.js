@@ -170,7 +170,7 @@ export default function Products() {
           </h1>
           <p className="text-xl text-green-700 max-w-3xl mx-auto leading-relaxed">
             Discover our carefully curated collection of organic spices, sourced from the 
-            world's finest growing regions and processed to preserve their natural flavors.
+            {`world's`} finest growing regions and processed to preserve their natural flavors.
           </p>
         </div>
       </section>
