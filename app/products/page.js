@@ -261,7 +261,7 @@ export default function Products() {
                 {/* Product Image/Icon */}
                 {/* Product Image */}
                 <div className="relative h-48 w-full overflow-hidden rounded-t-lg bg-green-100 flex items-center justify-center">
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
                     className="object-cover w-full h-full"

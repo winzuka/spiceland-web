@@ -15,7 +15,7 @@ export default function About() {
           </h1>
           <p className="text-xl text-green-700 max-w-3xl mx-auto leading-relaxed">
             Founded with a passion for authentic flavors and sustainable
-            practices, Spiceland brings you the world"s finest organic spices
+            practices, Spiceland brings you the {`world's`} finest organic spices
             from farm to table.
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function About() {
               Our Mission
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              To provide the world"s finest organic spices while supporting
+              To provide the {`world's`} finest organic spices while supporting
               sustainable farming practices and fair trade partnerships that
               benefit everyone in our supply chain.
             </p>
@@ -231,7 +231,7 @@ export default function About() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-green-800 mb-6">Our Team</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Meet the passionate individuals who make Spiceland"s mission
+              Meet the passionate individuals who make {`Spiceland's`} mission
               possible, from our sourcing experts to our quality assurance
               specialists.
             </p>
