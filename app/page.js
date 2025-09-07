@@ -23,7 +23,7 @@ export default function Home() {
             />
 
             <p className="text-xl md:text-2xl text-black mb-6 leading-relaxed">
-              Premium Quality Spices from Nature's Garden
+              Premium Quality Spices from Nature&apos;s Garden
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -52,7 +52,7 @@ export default function Home() {
                 About Spiceland
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Spiceland was founded with a passion for bringing the world's
+                Spiceland was founded with a passion for bringing the world&apos;s
                 finest organic spices directly to your kitchen. We work closely
                 with local farmers and suppliers to ensure that every spice
                 meets our high standards for quality, purity, and
