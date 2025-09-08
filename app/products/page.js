@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Products() {
   const [selectedCategory, setSelectedCategory] = useState("all");
