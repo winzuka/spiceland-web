@@ -18,12 +18,13 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/logo.png" // Replace with your logo path
+              src="/logo.png"
               alt="Spiceland Logo"
-              width={50}
+              width={50} // intrinsic size
               height={50}
-              className="w-12 h-12"
+              style={{ width: "3rem", height: "auto" }} // match Tailwind
             />
+
             <span className="text-2xl font-bold text-black">Spiceland</span>
           </Link>
 

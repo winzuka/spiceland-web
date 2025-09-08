@@ -14,13 +14,13 @@ export default function Home() {
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
             <Image
-              src="/logo.png" // Replace with your logo path
+              src="/logo.png"
               alt="Spiceland Logo"
-              width={200} // Adjust size as needed
+              width={200}
               height={200}
-              className="mx-auto mb-8"
-              priority // Optional: for above-the-fold images
+              className="mx-auto mb-6"
             />
+
 
             <p className="text-xl md:text-2xl text-black mb-6 leading-relaxed">
               Premium Quality Spices from {`Nature's`} Garden
@@ -86,12 +86,13 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-xl overflow-hidden shadow-xl">
               <Image
-                src="/img1.png" // Replace with your image path
+                src="/img1.png"
                 alt="Organic Spices"
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 50vw"
                 className="object-cover"
-                priority // Optional: for above-the-fold images
               />
+
             </div>
           </div>
         </div>
@@ -155,6 +156,9 @@ export default function Home() {
                   src={spice.image}
                   alt={spice.name}
                   fill
+                  sizes="(max-width: 640px) 100vw, 
+         (max-width: 768px) 50vw, 
+         33vw"
                   className="object-cover"
                 />
 
