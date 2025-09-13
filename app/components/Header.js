@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50 h-18">
+    <header className="bg-white shadow-md sticky top-0 z-50 h-20">
       <nav className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}

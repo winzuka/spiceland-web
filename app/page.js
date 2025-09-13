@@ -10,39 +10,34 @@ export default function Home() {
       <Header />
 
       <section className="relative h-screen flex items-center justify-center bg-[url('/bg.jpeg')] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-green-100 opacity-0"></div>
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-            <Image
-              src="/logo.png"
-              alt="Spiceland Logo"
-              width={200}
-              height={200}
-              className="mx-auto mb-6"
-            />
+  <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-green-100 opacity-0"></div>
+  <div className="absolute inset-0 bg-black/20"></div>
+  <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+    <img
+  src="/logo.png"
+  alt="Spiceland Logo"
+  className="mx-auto mb-6 w-auto h-auto max-w-[200px]"
+/>
 
-
-            <p className="text-xl md:text-2xl text-black mb-6 leading-relaxed">
-              Premium Quality Spices from {`Nature's`} Garden
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/products"
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300"
-              >
-                Explore Our Spices
-              </Link>
-              <Link
-                href="/about"
-                className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+    <p className="text-xl md:text-2xl text-black mb-6 leading-relaxed">
+      Premium Quality Spices from {`Nature's`} Garden
+    </p>
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <Link
+        href="/products"
+        className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300"
+      >
+        Explore Our Spices
+      </Link>
+      <Link
+        href="/about"
+        className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300"
+      >
+        Learn More
+      </Link>
+    </div>
+  </div>
+</section>
 
       {/* About Us Preview */}
       <section className="py-20 px-4">
