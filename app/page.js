@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "./components/Header";
@@ -18,7 +19,8 @@ export default function Home() {
               alt="Spiceland Logo"
               width={200}
               height={200}
-              className="mx-auto mb-6"
+              className="mx-auto mb-6 w-32 h-auto md:w-48" // Tailwind responsive classes
+              style={{ width: 'auto', height: 'auto' }}
             />
 
 
